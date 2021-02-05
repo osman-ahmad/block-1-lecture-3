@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block 1 Lecture 3</title>
+</head>
+<body>
+    <form>
+        <!-- hidde fields are used to valid the form is from the person you sent the page to-->
+        <input type="hidden" id="form-id" value="93h12912hf01fh1209u2r10i1209f012f1902f1012f101912u0assss"/>
+        <!-- Form fields-->
+        <label for="my-text">Enter some text:</label>
+        <input type="text" name="some-text" id="my-text"/> <br/>
+        Website: <input type="text" name="website"/><br/>
+        Computer: <input type="text" name="computer"/><br/>
+        <label for="my-password">Password:</label>
+        <input type="password" name="password" id="password"/><br/>
+        <input type="radio" name="gender" id="male" value="m"/>
+        <label for="male">Male</label><br/>
+        <input type="radio" name="gender" id="female" value="f"/>
+        <label for="female">Female</label><br/>
+
+        <input type="radio" name="season" value="spring">Spring<br/>
+        <input type="radio" name="season" value="summer">Summer<br/>
+        <input type="radio" name="season" value="fall">Fall<br/>
+        <input type="radio" name="season" value="winter">Winter<br/>
+
+        <input type="checkbox" name="season" value="spring">Spring<br/>
+        <input type="checkbox" name="season" value="summer">Summer<br/>
+        <input type="checkbox" name="season" value="fall">Fall<br/>
+        <input type="checkbox" name="season" value="winter">Winter<br/>
+        
+        <label for="my-text-area">Enter some text:</label><br/>
+        <textarea name="my-big-text" id="my-text-area">
+
+Enter your
+text here
+        </textarea>
+        <hr/>
+        <select name="select-food[]" multiple="multiple">
+            <option value="mex">Mexico</option>
+            <option value="chn">Chinese</option> 
+            <option value="vit">indian</option>
+            <option value="ind">hawaian</option>
+        </select><br/>
+
+    
+        <input type="submit"/> |
+        <input type="reset"/>
+    </form>
+    <!-- some-text=dasd&
+    website=asd&
+    computer=asdas&
+    password=asd&
+    gender=on&
+    season=summer&
+    season=spring&
+    season=summer&
+    my-big-text=asdas%0D%0A++++++++&select-food%5B%5D=chn&
+    select-food%5B%5D=vit&
+    select-food%5B%5D=i
+    -->
+</body>
+</html>
